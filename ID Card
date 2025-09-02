@@ -1,0 +1,29 @@
+Let's create an ID card! You'll use different data types to store information about your identification.
+
+Create the following variables:
+
+String name variable
+String state variable
+Character gender variable
+Integer age variable
+Boolean organDonor variable
+Then, output these using print statements, and click run!
+
+You'll see your new ID card! 🪪
+
+
+
+    public static void main(String[] args) 
+    String name = "Mico";
+    String state = "Java Development";
+    int age = 21;
+    char gender = 'M';
+    boolean organDonor = false;
+    System.out.println("Name: " + name);
+    System.out.print("Organ Donor: ");
+    System.out.println(organDonor);
+    System.out.println("State " + state);
+    System.out.println("Age " + age);
+    System.out.println("Gender: " + gender);
+    }
+}
