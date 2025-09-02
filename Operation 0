@@ -1,0 +1,14 @@
+What is the result of the reaction? Create chemicalA and chemicalB variables, each holding a random amount of grams.
+
+Calculate and print the result. 🧪
+
+  public static void main(String[] args) {
+	    	double chemicalA = 50.2;
+	        double chemicalB = 22.1;
+	
+	        double chemicalreaction = (chemicalA + chemicalB) / (chemicalA * (chemicalB / 100));
+	      
+	         System.out.println(chemicalreaction);
+            
+    }
+}
