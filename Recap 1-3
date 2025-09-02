@@ -1,0 +1,32 @@
+Recap 1-3
+
+// 
+Creating variables
+Data types (int, double, boolean, char, and String)
+Using operators to write and solve math expressions
+Adding user input to a Java program using the scanner util
+
+
+// Code of 1-3 in one files.
+
+public static void main(String[] args) {
+
+        Scanner sc = new Scanner (System.in); // import.java.util.*; is must import on top of the public class!
+        // Variables Basic
+        int points = 23;
+        double result = 0;
+        System.out.println(" Your point is: " + points);
+        // Data Types int, double, boolean, char and String 
+        System.out.print(" EXP: ");
+        int exp = sc.nextInt();
+        System.out.println(" The EXP was " + exp);
+        // Math Expression ( I was kinda bad at this)
+        System.out.println(" Next is Math Expression which already have a variable so you cannot really put something there since I didnt use scanner to it.");
+        result =  40 / 20;
+        System.out.println(" Result is " + result);
+        // Scanner is already mention on Data types since data type is basically variable but have different variety. which is the boolean, char etc.
+ 
+    }
+}
+
+I still have slightly confusion on datatypes since I was only using int at the moment, since the intruction clearly doenst tell me what should I used.
