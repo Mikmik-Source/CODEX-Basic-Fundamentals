@@ -33,3 +33,19 @@ Another Solution that I found on GITHUB
          
          System.out.println("You have the following amount of dollars:");
          System.out.println(dollars);
+
+
+Pure Made Test ( NO CHATGPT )
+
+ Scanner sc = new Scanner(System.in);
+    	 double ctd = 0000.42;
+    	 
+    	 System.out.print("How many coins do u have ");
+    	 int coins = sc.nextInt();
+    	 
+    	 double ctd1 = ctd * coins;
+    	 System.out.println("Your Dollar is " + ctd1);
+   
+    }
+}
+
