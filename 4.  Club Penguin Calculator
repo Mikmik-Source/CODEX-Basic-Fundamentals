@@ -5,7 +5,8 @@ Create a program that serves as a conversion calculator, where a penguin can ent
 
  public static void main(String[] args) {
     	final double  Coinvalue = 0.0045;
-        Scanner sc = new Scanner (System.in);
+      
+ Scanner sc = new Scanner (System.in);
         
         System.out.println("Welcome to Club Penguin Calculator Challenges");
         System.out.print(" Insert your coin here!");
@@ -17,3 +18,18 @@ Create a program that serves as a conversion calculator, where a penguin can ent
         
     }    //  I still used A.I in order to understand, also due to not familiarize on game and Currency of a USD, I used the resources in order to complete the challenges. dzuh.
 }
+
+
+Another Solution that I found on GITHUB 
+
+ Scanner scanner = new Scanner(System.in);
+         double exchangeRate = 0.0045;
+
+         System.out.print("Welcome to the Club Penguin money converter!");
+         System.out.print("How many coins do you have? ");
+         int coins = scanner.nextInt(); 
+
+         double dollars = coins * exchangeRate;
+         
+         System.out.println("You have the following amount of dollars:");
+         System.out.println(dollars);
