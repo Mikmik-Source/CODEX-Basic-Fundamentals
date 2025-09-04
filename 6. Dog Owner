@@ -1,0 +1,23 @@
+Create two boolean variables, isCatOwner and isDogOwner and give them each a value.
+
+Write a program that gives the following specials:
+
+Use the code MEOW for 20% off cat items.
+Use the code WOOF for 20% off dog items.
+If you're neither a cat nor dog pet owner, write a generic “Welcome to the pet store!” message.
+
+ public static void main(String[] args) {
+	    	boolean isCatOwner = false;
+	    	boolean isDogOwner = true;
+	    	
+	    		if (isCatOwner) {
+	    			System.out.print("Welcome to the Pet Store!");
+	    		}else if (isDogOwner) {
+	    			System.out.print("Use the Code MEOW for 20$ off cat item!");
+	    		}else {
+	    			System.out.print("Use the code WOOF for 20% off dog items!");
+	    		}
+	    	}
+	}
+ // 
+
