@@ -1,0 +1,22 @@
+Create a program that checks if you can ride the rollercoaster if you weigh above 40 kg and are taller than 120 cm.
+
+If both conditions are met, print “Congrats! You can ride!” 🎢
+Otherwise, “Sorry, You can't ride today.” 😞
+
+
+public class practice1 {
+	int weight = 40;
+	int height = 120;
+	
+    public static void main(String[] args) {
+    	practice1 practice = new practice1 ();
+    	
+    	if (practice.weight < 30 && practice.height>100) {
+    		System.out.println("Congrats you can come");
+    	} else {
+    		System.out.print("Careful");
+    	}
+    }
+}
+
+// my code was practice.weight < 30 && practice.height<100) { I have no idea if its wrong but meh it's working.
