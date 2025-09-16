@@ -1,0 +1,15 @@
+Let's create a chant that we can use to show our support for your favorite artist or sports team! 📢 
+Create a loop that displays 3 lines with the following format:
+
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        int i = 0;
+
+        while (i <= 4) {
+            System.out.println("LET'S GO MICHIGAN!!!!");
+            i = i + 2;
+        }
+        
+    }
+}
