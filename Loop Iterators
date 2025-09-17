@@ -1,0 +1,20 @@
+We're going to create and write repeated affirmations for ourselves! In code, of course!
+
+Use a for loop to repeat the following phrase 50 times. 
+
+
+package Learning;
+
+public class Learn {
+
+	public static void main(String[] args) {
+		int num = 0;
+			for (int a1 = 0; a1 < 50; a1++) {
+				System.out.println("I will be great at Programming" + num);
+				num++;
+			}
+		
+
+	}
+
+}
